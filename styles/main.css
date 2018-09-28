@@ -80,6 +80,43 @@ footer {
     padding: .6rem 2%;
     text-align: center;
 }
+/* table content */
+
+table {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    border-collapse: collapse;
+    border:7px solid orange;
+    box-shadow: 10px 10px 10px orange;
+    font-family: ubuntu, sans-serif;
+    padding: 4px;
+}
+tr:nth-child(odd) {
+    background-color: lightgreen;
+}
+tr:nth-child(even) {
+    background-color: #e7f0ed;
+}
+thead th {
+    color: black;
+    background-color:#7fb9c2;
+
+}
+tbody th {
+    font-size: 20px;
+    background-color: #628ca6;
+    color: white;
+    border: 2px solid #ddd;
+    padding: 3px;
+
+}
+td {
+    font-size: 16px;
+    padding: 6px;
+    border: 2px solid #ddd;
+}
+
 
 
 
