@@ -45,6 +45,21 @@ main {
     min-height: 8rem;
     background-color: lightyellow;
 }
+#font{
+    font-size: 8;
+}
+#Output, #Otput {
+    background-color: white;
+    width: 7em;
+    border: 2px solid;
+    padding: 4px;
+}
+.form {
+    align-content: center;
+    text-align: center;
+    font-size: 1.1em;
+    color: black;
+}
 footer {
     background-color: #ddd;
     padding: .6rem 2%;

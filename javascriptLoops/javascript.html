@@ -25,10 +25,41 @@
         <h5>Completed credits and year in school</h5>
             <p>Student name
             <input name="fullname" type="text" id="studentname" placeholder="Student name"><br>
+                Enter current course ID
+                <input type="text" id="courseId" size="4" placeholder="ID"><br>
+                Current semester
+                <input type="semester" id="semst" size="6" placeholder="Semester"><br>
+                
             Credits completed
-                <input type="text" id="credits" size="3"><br></p>
+                <input type="text" id="credits" size="3" placeholder="credit"><br></p>
                 <button type="button" onclick="schoolYears()">check year</button>
-            <div id="Output"><b>Result</b></div>
+            <div id="Output"><b>Result</b></div> 
+        <p id="font">
+            You now have the opportunity to choose your reward ramdomly. To begin you are to enter an integer between 0 - 8 from the result you will receive enter any number between the result gotten and 20. <br><br></p>
+            <p>Enter an Integer between 1 - 8 <input type="input" id="integ" size="4">
+                <button type="button" onclick="myInteger()"> Sum Up </button></p>
+            <p></p><div id="outpu" style="color: red"></div>
+        
+         <p>Provide a number for your reward (from 0 to 20): <br>
+                <input type="text" id="marray" size="4"></p>
+
+            <button type="button" onclick="arraYem()">submit</button>
+            <div id="Otput" style="color: red">result</div>
+        <hr>
+        
+        
+        <br>
+        
+        Do you know the wind chill of your location?
+        let's have a try on it.
+        
+        <span class="form">
+        <p>Wind Chill</p>
+            <p>Temperature<input type="text" id="temperature" size="3" maxlength="6"><br>
+                Wind Speed<input type="text" id="windspeed" size="3" maxlength="6"> </p>
+            <button type="button" onclick="computeMe()">calculate</button>
+                <div id="Putme">result</div>
+        </span>
         <form>
             
         
