@@ -1,0 +1,105 @@
+<!doctype HTML>
+<html>
+<head>
+    <meta charset="utf-8">
+        <meta name="description" content="page description placeholder">
+        <meta name="author" content="Solomon Buaku Pobee">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>HTML5 Tags, videos, audios and canvas</title>
+
+        <!-- external stylesheet references -->
+        <link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">  <!-- Google API font reference -->
+           <link href="css/main.css" rel="stylesheet">
+           <link href="css/medium.css" rel="stylesheet">
+          <link href="css/large.css" rel="stylesheet">
+          <link href="css/normalize.css" rel="stylesheet">
+
+</head>
+    
+<body>
+    <header>
+        <h1>HTML5 Tags, videos, audios and canvas</h1>
+                <img id="banner" src="imgs/html5-css3.jpg" alt="banner">
+
+    </header>
+    <main>
+        <section class="mine">
+           <article class="container">
+                 <div><p>first</p><video controls poster="images/20170531_111924.jpg" width="330">
+                        <source src="videos/LDSConf.mp4" type="video/mp4">
+                        Sorry cannot play this video.
+                    </video><br>
+                   ontrary to popular belief, Lorem Ipsum is not simply random text. 
+               </div>
+               <div><p>second</p>
+                   <video autoplay width="330">
+                        <source src="videos/LDSConf_2.mp4" type="video/mp4">
+                        Sorry cannot play this video.
+                    </video>
+                  <br>
+                  ontrary to popular belief, Lorem Ipsum is not simply random text.
+               </div>
+               <div><p>In this video, the controls are muted </p>
+                            <video muted controls poster="images/20170531_111924.jpg" width="330">
+                            <source src="videos/LDSConf_1.mp4" type="video/mp4"> </video>
+                   <br>
+                   Contrary to popular belief, Lorem Ipsum is not simply random text. 
+               </div>
+               <div><p>In this video segment there is going to be a loop over and over</p>
+                        <video loop controls width="330">
+                            <source src="videos/2018-10-1050-ronald-a-rasband-360p-eng.mp4" type="video/mp4">
+                        </video>
+                   <!--audio found here-->
+                   <p>In this second audio, it is set to be controled by the user and stops once it ends playing
+                    <audio controls><source src="audios/2018-10-1050-ronald-a-rasband-64k-mp3.mp3" type="audio/mp4"> sorry cant play audio. </audio></p><br>
+                   ontrary to popular belief, Lorem Ipsum is not simply random text.
+               </div>
+               <div><p>auto play with loop in this part of the video</p>
+                        <video muted autoplay loop width="330">
+                            <source src="videos/2018-10-1020-quentin-l-cook-360p-eng.mp4" type="video/mp4">
+                        </video>
+                   <!-- audio found here-->
+                   <p>In this audio, it has been set to loop over once it ends.
+                    <audio controls loop>
+                        <source src="audios/2018-10-1020-quentin-l-cook-64k-mp3.mp3" type="audio/mp4">
+                        Sorry cannot play audio.
+                    </audio>
+                        </p><br>
+                   ontrary to popular belief, Lorem Ipsum is not simply random text.
+               </div>
+    
+               <div><h3>Draw a Circle</h3>
+                    <p>
+                        <canvas id="myCanvas" width="200" height="100" class="theCanvas">Sorry, your browser does not support HTML canvas</canvas>
+                    </p>
+                    <br>
+                    <h3>Draw a Stroke Text</h3>
+                    <p>
+                         <canvas id="myCanvast" width="200" height="100" class="theCanvas">Sorry, your browser does not support HTML canvas</canvas>
+                    </p>
+                    <br>
+                    <h3>Draw a Circular Grdient</h3>
+                    <p>
+                         <canvas id="myCanvase" width="200" height="100" class="theCanvas">Sorry, your browser does not support HTML canvas</canvas>
+                    </p><br>
+                    ontrary to popular belief, Lorem Ipsum is not simply random text.
+               </div>
+                          
+            
+            </article>
+                </section>
+    </main>
+    
+    <footer>
+        <p id="edu">&star; <a href="http://www.byui.edu/online">BYU-Idaho Online Learning</a>&star;</p>
+        <p>&copy;2018 Alright Reserved | Solomon B. Pobee    </p>
+                <marquee>Visit our site to learn more about BYU-I online learning!!</marquee>
+
+    
+    </footer>
+    
+            <script src="js/canvas.js"></script>
+
+    </body>
+    
+</html>
