@@ -22,4 +22,9 @@
     }
     /* this section refers to the main of the index.html page*/
    
+    article#first {
+        width: 80%;
+padding-left: 15%;
+        
+    }
     }

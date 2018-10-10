@@ -1,0 +1,72 @@
+<!doctype HTML>
+<html>
+<head>
+    <meta charset="utf-8">
+        <meta name="description" content="page description placeholder">
+        <meta name="author" content="Solomon Buaku Pobee">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Creating CSS3 Transitions and Animations in CSS and triggering them with JavaScript</title>
+
+        <!-- external stylesheet references -->
+        <link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">  <!-- Google API font reference -->
+           <link href="css/main.css" rel="stylesheet">
+          <link href="css/normalize.css" rel="stylesheet">
+
+    
+</head>
+    
+<body>
+    <header>
+        <h1>Creating CSS3 Transitions and Animations in CSS and triggering them with JavaScript</h1>
+                <img id="banner" src="imgs/html5-css3.jpg" alt="banner">
+
+    </header>
+    <main>
+        <p><!--This is an example of CSS3 transition and Animations--> <h1>colors of the Ghana Flag.</h1><p>
+<div id="myDIV"></div>
+        
+        <!---<p>The background-position property is <em>animated</em> in CSS.</p>
+<p>The CSS3 animations do not always work with internet explorer version 9 and earlier version<br>-->
+        
+
+  <div id="design">The Ghana flag contains three colors which are red, gold, green with a black star in the middle of the gold color.</div>
+                <button onclick="myDesi()">Click here</button>
+        <p>Clicking on the button below will hide the green color and the information prodivided.</p>
+        <table>
+            <thead>
+                <th>Red</th>
+            </thead>
+            <tbody>
+                <tr>
+                   <td>Gold&star;</td>
+                </tr>
+                <tr>
+                    <td>Green</td>
+                </tr>
+            </tbody>
+        </table>
+
+    </main>
+    
+    <footer>
+        <p id="edu">&star; <a href="http://www.byui.edu/online">BYU-Idaho Online Learning</a>&star;</p>
+        <p>&copy;2018 Alright Reserved | Solomon B. Pobee    </p>
+                <marquee>Visit our site to learn more about BYU-I online learning!!</marquee>
+
+    
+    </footer>
+    
+      <script>
+ function myDesi() {
+    var x = document.getElementById('design');
+    if (x.style.visibility === 'hidden') {
+        x.style.visibility = 'visible';
+    } else {
+        x.style.visibility = 'hidden';
+    }
+}
+</script>
+
+    </body>
+    
+</html>

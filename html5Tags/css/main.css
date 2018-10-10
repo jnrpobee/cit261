@@ -16,6 +16,7 @@ body {
     font-size: 16px;
     font-family: sans-serif;
       background: #fff;
+        line-height: 1.5;
     box-shadow: 0 0 2px rgba(0, 0, 0, 0.06);
         max-width: 1200px;
     padding: 2em 2em 4em;
@@ -34,10 +35,10 @@ H1, h2 {
 }
 
 main {
-    margin-top: -50px;
+    margin-top: -20px;
     padding: 0 2%;
     min-height: 8rem;
-    background-color: burlywood;
+    background-color: beige;
 }
 .theCanvas {
     width: 200px;
@@ -53,6 +54,7 @@ main {
 }
 .container {
     font-size-adjust: auto;
+    font-size: 14px;
 }
 /*grid content*/
 
