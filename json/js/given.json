@@ -1,40 +1,48 @@
 {
-  "squadName" : "Super hero squad",
-  "homeTown" : "Metro City",
-  "formed" : 2016,
-  "secretBase" : "Super tower",
-  "active" : true,
-  "members" : [
+  "SchoolName" : "Bringham Young University - Idaho",
+  "Semester" : "fall semester",
+  "year" : 2018,
+   "infos" : [
     {
-      "name" : "Molecule Man",
-      "age" : 29,
-      "secretIdentity" : "Dan Jukes",
-      "powers" : [
-        "Radiation resistance",
-        "Turning tiny",
-        "Radiation blast"
+      "presentationWeek" : "Week three",
+      "meetingDay" : Wednesday,
+      "topic" : [
+          "JavaScript",
+          "JavaScript Objects",
+          "Local Storage"
+      ],
+      "presentatinsBy" : [
+        "Solomon Pobee",
+        "Nathan Graves",
+        "Les Aycock"
       ]
     },
     {
-      "name" : "Madame Uppercut",
-      "age" : 39,
-      "secretIdentity" : "Jane Wilson",
-      "powers" : [
-        "Million tonne punch",
-        "Damage resistance",
-        "Superhuman reflexes"
+      "presentationWeek" : "Week Four",
+      "meetingDay" : Wednesday,
+      "topic" : [
+          "CSS Class Properties Using JavaScript",
+          "HTML5 Tags",
+          "DOM"
+      ],     
+        "presentatinsBy" : [
+        "Theodore",
+        "Michaelle Salas",
+        "Deon Miller"
       ]
     },
     {
-      "name" : "Eternal Flame",
-      "age" : 1000000,
-      "secretIdentity" : "Unknown",
-      "powers" : [
-        "Immortality",
-        "Heat Immunity",
-        "Inferno",
-        "Teleportation",
-        "Interdimensional travel"
+      "presentationWeek" : "Eternal Flame",
+      "meetingDay" : Wednesday,
+      "topic" : [
+          "XMLHTTPReques",
+          "CSS3 Transforms",
+          "CSS Class Properties Using JavaScript"
+      ],
+        "presentatinsBy" : [
+        "Nathan Graves",
+        "Michaelle Salas",
+        "Solomon Pobee",
       ]
     }
   ]
