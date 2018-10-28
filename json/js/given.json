@@ -6,11 +6,11 @@
     {
       "presentationWeek" : "Week three",
       "meetingDay" : Wednesday,
-      "topic" : [
-          "JavaScript",
-          "JavaScript Objects",
-          "Local Storage"
-      ],
+    //  "topic" : [
+    //      "JavaScript",
+   //       "JavaScript Objects",
+   //       "Local Storage"
+   //   ],
       "presentatinsBy" : [
         "Solomon Pobee",
         "Nathan Graves",
@@ -20,11 +20,11 @@
     {
       "presentationWeek" : "Week Four",
       "meetingDay" : Wednesday,
-      "topic" : [
-          "CSS Class Properties Using JavaScript",
-          "HTML5 Tags",
-          "DOM"
-      ],     
+    //  "topic" : [
+    //      "CSS Class Properties Using JavaScript",
+    //      "HTML5 Tags",
+    //      "DOM"
+    //  ],     
         "presentatinsBy" : [
         "Theodore",
         "Michaelle Salas",
@@ -34,11 +34,11 @@
     {
       "presentationWeek" : "Eternal Flame",
       "meetingDay" : Wednesday,
-      "topic" : [
-          "XMLHTTPReques",
-          "CSS3 Transforms",
-          "CSS Class Properties Using JavaScript"
-      ],
+     // "topic" : [
+     //     "XMLHTTPReques",
+     //     "CSS3 Transforms",
+     //     "CSS Class Properties Using JavaScript"
+     // ],
         "presentatinsBy" : [
         "Nathan Graves",
         "Michaelle Salas",
