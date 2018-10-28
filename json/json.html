@@ -57,11 +57,16 @@ request.send();
     var myList = document.createElement('ul');
 
     myH2.textContent = team[i].presentationWeek;
-    myPara2.textContent = ' topic: ' + team[i].topic;
+    myPara2.textContent = ' topic: ';
     myPara1.textContent = ' meetingDay: ' + team[i].meetingDay;
     myPara3.textContent = ' Presenters: ';
       
-      var teamTopics = 
+      var teamTopics = team[i].presentationTopic;
+      for (var t = 0; t < teamTopics.length; t++) {
+          var listTopic = document.createElement('li');
+          listTopic.textContent = teamTopics[m];
+          myList.appendChild(listTopic);
+      }
         
     var teamPresenters = team[i].presentatinsBy;
     for (var j = 0; j < teamPresenters.length; j++) {
