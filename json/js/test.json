@@ -1,39 +1,39 @@
 {
-  "schoolName" : "Super hero squad",
-  "semester" : "Metro City",
-  "year" : 2016,
+  "schoolName" : "Bringham Young University - Idaho",
+  "semester" : "fall semester",
+  "year" : 2018,
   "secretBase" : "Super tower",
   "active" : true,
   "infos" : [
     {
-      "name" : "Molecule Man",
+      "name" : "Week three",
       "age" : 29,
-      "secretIdentity" : "Dan Jukes",
+      "secretIdentity" : "Wednesday",
       "powers" : [
-        "Radiation resistance",
-        "Turning tiny",
-        "Radiation blast"
+        "Solomon Pobee",
+        "Nathan Graves",
+        "Les Aycock"
       ]
     },
     {
-      "name" : "Madame Uppercut",
+      "name" : "Week four",
       "age" : 39,
-      "secretIdentity" : "Jane Wilson",
+      "secretIdentity" : "thursday",
       "powers" : [
-        "Million tonne punch",
-        "Damage resistance",
-        "Superhuman reflexes"
+        "Deon Miller",
+        "Michaelle Salas",
+        "Theodore"
       ]
     },
     {
-      "name" : "Eternal Flame",
+      "name" : "Week five",
       "age" : 1000000,
-      "secretIdentity" : "Unknown",
+      "secretIdentity" : "friday",
       "powers" : [
-        "Immortality",
-        "Heat Immunity",
+        "Solomon Pobee",
+        "Michaelle Salas",
         "Inferno",
-        "Teleportation",
+        "Nathan Graves",
         "Interdimensional travel"
       ]
     }
