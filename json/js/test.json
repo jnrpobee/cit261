@@ -7,9 +7,9 @@
   "infos" : [
     {
       "name" : "Week three",
-      "age" : 29,
-      "secretIdentity" : "Wednesday",
-      "powers" : [
+      "numberOfTopics" : 29,
+      "meetingDay" : "Wednesday",
+      "Presenters" : [
         "Solomon Pobee",
         "Nathan Graves",
         "Les Aycock"
@@ -17,9 +17,9 @@
     },
     {
       "name" : "Week four",
-      "age" : 39,
-      "secretIdentity" : "thursday",
-      "powers" : [
+      "numberOfTopics" : 39,
+      "meetingDay" : "thursday",
+      "Presenters" : [
         "Deon Miller",
         "Michaelle Salas",
         "Theodore"
@@ -27,9 +27,9 @@
     },
     {
       "name" : "Week five",
-      "age" : 1000000,
-      "secretIdentity" : "friday",
-      "powers" : [
+      "numberOfTopics" : 10,
+      "meetingDay" : "friday",
+      "Presenters" : [
         "Solomon Pobee",
         "Michaelle Salas",
         "Inferno",
