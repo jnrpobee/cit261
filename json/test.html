@@ -31,11 +31,11 @@ request.send();
         
         request.onload = function() {
   var teamFour = request.response;
-  populateHeader(teamFour);
+  Header(teamFour);
   showTeam(teamFour);
 }
         
-        function populateHeader(jsonObj) {
+        function Header(jsonObj) {
   var myH1 = document.createElement('h1');
   myH1.textContent = jsonObj['schoolName'];
   header.appendChild(myH1);
@@ -57,9 +57,9 @@ request.send();
     var myList = document.createElement('ul');
 
     myH2.textContent = team[i].name;
-    myPara1.textContent = 'Secret identity: ' + team[i].secretIdentity;
-    myPara2.textContent = 'Age: ' + team[i].age;
-    myPara3.textContent = 'Superpowers:';
+    myPara1.textContent = ' Meeting Day: ' + team[i].meetingDay;
+    myPara2.textContent = ' Topics: ' + team[i].numberOfTopics;
+    myPara3.textContent = ' Presenters:';
         
     var superPowers = team[i].powers;
     for (var j = 0; j < superPowers.length; j++) {
