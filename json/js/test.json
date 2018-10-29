@@ -8,7 +8,7 @@
     {
       "name" : "Week three",
       "numberOfTopics" : 29,
-      "meetingDay" : "january",
+      "meetingDay" : "Wednesday",
       "Presenters" : [
         "Solomon Pobee",
         "Nathan Graves",
@@ -18,7 +18,7 @@
     {
       "name" : "Week four",
       "numberOfTopics" : 39,
-      "meetingDay" : "february",
+      "meetingDay" : "Thursday",
       "Presenters" : [
         "Deon Miller",
         "Michaelle Salas",
@@ -28,7 +28,7 @@
     {
       "name" : "Week five",
       "numberOfTopics" : 10,
-      "meetingDay" : "march",
+      "meetingDay" : "Friday",
       "Presenters" : [
         "Solomon Pobee",
         "Michaelle Salas",
