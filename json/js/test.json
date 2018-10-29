@@ -8,8 +8,8 @@
     {
       "name" : "Week three",
       "numberOfTopics" : 29,
-      "meetingDay" : "Wednesday",
-      "Presenters" : [
+      "secretIdentity" : "Wednesday",
+      "powers" : [
         "Solomon Pobee",
         "Nathan Graves",
         "Les Aycock"
@@ -18,8 +18,8 @@
     {
       "name" : "Week four",
       "numberOfTopics" : 39,
-      "meetingDay" : "Thursday",
-      "Presenters" : [
+      "secretIdentity" : "Thursday",
+      "powers" : [
         "Deon Miller",
         "Michaelle Salas",
         "Theodore"
@@ -28,8 +28,8 @@
     {
       "name" : "Week five",
       "numberOfTopics" : 10,
-      "meetingDay" : "Friday",
-      "Presenters" : [
+      "secretIdentity" : "Friday",
+      "powers" : [
         "Solomon Pobee",
         "Michaelle Salas",
         "Inferno",
