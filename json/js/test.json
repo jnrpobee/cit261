@@ -1,7 +1,7 @@
 {
-  "squadName" : "Bringham Young University - Idaho",
-  "homeTown" : "fall semester",
-  "formed" : 2018,
+  "schoolName" : "Bringham Young University - Idaho",
+  "semester" : "fall semester",
+  "year" : 2018,
   "secretBase" : "Super tower",
   "active" : true,
   "infos" : [
