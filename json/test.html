@@ -31,13 +31,13 @@ request.send();
         
         request.onload = function() {
   var teamFour = request.response;
-  myHeader(teamFour);
+  populateHeader(teamFour);
   showTeam(teamFour);
 }
         
-        function myHeader(jsonObj) {
+        function populateHeader(jsonObj) {
   var myH1 = document.createElement('h1');
-  myH1.textContent = jsonObj['schoolName'];
+  myH1.textContent = jsonObj['squadName'];
   header.appendChild(myH1);
 
   var myPara = document.createElement('p');
