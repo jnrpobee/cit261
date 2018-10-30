@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
 
-    <title>Our superheroes</title>
+    <title>JSON</title>
 
     <link href="https://fonts.googleapis.com/css?family=Faster+One" rel="stylesheet"> 
     <link rel="stylesheet" href="css/main.css">
@@ -31,11 +31,11 @@ request.send();
         
         request.onload = function() {
   var teamFour = request.response;
-  Header(teamFour);
+  myHeader(teamFour);
   showTeam(teamFour);
 }
         
-        function Header(jsonObj) {
+        function myHeader(jsonObj) {
   var myH1 = document.createElement('h1');
   myH1.textContent = jsonObj['schoolName'];
   header.appendChild(myH1);
@@ -44,11 +44,20 @@ request.send();
   myPara.textContent = 'This is a presentation for CIT 261: ' + jsonObj['semester'] + ' for year: ' + jsonObj['year'];
   header.appendChild(myPara);
 }
+  //       function populateHeader(jsonObj) {
+ // var myH1 = document.createElement('h1');
+ // myH1.textContent = jsonObj['squadName'];
+ // header.appendChild(myH1);
+             
+ // var myPara = document.createElement('p');
+ // myPara.textContent = 'Hometown: ' + jsonObj['homeTown'] + ' // Formed: ' + jsonObj['formed'];
+ // header.appendChild(myPara);
+//}
         
         function showTeam(jsonObj) {
   var team = jsonObj['infos'];
       
-  for (var i = 0; i < team.length; i++) {
+  for (var j = 0; j < team.length; j++) {
     var myArticle = document.createElement('article');
     var myH2 = document.createElement('h2');
     var myPara1 = document.createElement('p.man');
