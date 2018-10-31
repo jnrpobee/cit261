@@ -30,14 +30,14 @@ request.open('GET', requestURL);
 request.send();
         
         request.onload = function() {
-  var superHeroes = request.response;
-  myHeader(superHeroes);
-  showTeam(superHeroes);
+  var teamFour = request.response;
+  myHeader(teamFour);
+  showTeam(teamFour);
 }
         
         function myHeader(jsonObj) {
   var myH1 = document.createElement('h1');
-  myH1.textContent = jsonObj['squad'];
+  myH1.textContent = jsonObj["squadName"];
   header.appendChild(myH1);
 
   var myPara = document.createElement('p');
