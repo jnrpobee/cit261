@@ -7,7 +7,7 @@ html {
 }
 
 body {
-  width: 800px;
+  width: 900px;
   margin: 0 auto;
 }
 
@@ -39,7 +39,7 @@ section article {
 }
 
 section p {
-  margin: 5px 0;
+  margin: 10px 0;
 }
 
 section ul {

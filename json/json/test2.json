@@ -34,6 +34,16 @@
         "Michaelle Salas",
         "Nathan Graves"
       ]
+    },
+      {
+      "weekName" : "Week six",
+      "numberOfTopics" : 4,
+      "secretIdentity" : "Monday",
+      "presenters" : [
+        "Solomon ",
+        "Michaelle ",
+        "Nathan "
+      ]
     }
   ]
 }
