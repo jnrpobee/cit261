@@ -1,38 +1,40 @@
 {
   "squadName" : "Super hero squad",
-  "semester" : "fall semester",
-  "year" : 2018,
+  "homeTown" : "Metro City",
+  "formed" : 2016,
   "secretBase" : "Super tower",
   "active" : true,
-  "infos" : [
+  "members" : [
     {
-      "weekName" : "Week three",
-      "numberOfTopics" : 29,
-      "secretIdentity" : "Wednesday",
+      "name" : "Molecule Man",
+      "age" : 29,
+      "secretIdentity" : "Dan Jukes",
       "powers" : [
-        "Solomon Pobee",
-        "Nathan Graves",
-        "Les Aycock"
+        "Radiation resistance",
+        "Turning tiny",
+        "Radiation blast"
       ]
     },
     {
-      "name" : "Week four",
-      "numberOfTopics" : 39,
-      "secretIdentity" : "Thursday",
+      "name" : "Madame Uppercut",
+      "age" : 39,
+      "secretIdentity" : "Jane Wilson",
       "powers" : [
-        "Deon Miller",
-        "Michaelle Salas",
-        "Theodore"
+        "Million tonne punch",
+        "Damage resistance",
+        "Superhuman reflexes"
       ]
     },
     {
-      "name" : "Week five",
-      "numberOfTopics" : 10,
-      "secretIdentity" : "Friday",
+      "name" : "Eternal Flame",
+      "age" : 1000000,
+      "secretIdentity" : "Unknown",
       "powers" : [
-        "Solomon Pobee",
-        "Michaelle Salas",
-        "Nathan Graves",
+        "Immortality",
+        "Heat Immunity",
+        "Inferno",
+        "Teleportation",
+        "Interdimensional travel"
       ]
     }
   ]
