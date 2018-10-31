@@ -6,7 +6,7 @@
   "active" : true,
   "infos" : [
     {
-      "name" : "Week three",
+      "weekName" : "Week three",
       "numberOfTopics" : 29,
       "secretIdentity" : "Wednesday",
       "powers" : [

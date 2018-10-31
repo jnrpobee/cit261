@@ -57,7 +57,7 @@ request.send();
         function showTeam(jsonObj) {
   var team = jsonObj['infos'];
       
-  for (var j = 0; j < team.length; j++) {
+  for (var i = 0; i < team.length; i++) {
     var myArticle = document.createElement('article');
     var myH2 = document.createElement('h2');
     var myPara1 = document.createElement('p.man');
@@ -65,7 +65,7 @@ request.send();
     var myPara3 = document.createElement('p.man');
     var myList = document.createElement('ul');
 
-    myH2.textContent = team[i].name;
+    myH2.textContent = team[i].weekName;
     myPara1.textContent = ' Meeting Day: ' + team[i].secretIdentity;
     myPara2.textContent = ' Topics: ' + team[i].numberOfTopics;
     myPara3.textContent = ' Presenters:';
