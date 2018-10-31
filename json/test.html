@@ -30,9 +30,9 @@ request.open('GET', requestURL);
 request.send();
         
         request.onload = function() {
-  var teamFour = request.response;
-  myHeader(teamFour);
-  showTeam(teamFour);
+  var superHeroes = request.response;
+  myHeader(superHeroes);
+  showTeam(superHeroes);
 }
         
         function myHeader(jsonObj) {
