@@ -23,25 +23,24 @@
     var header = document.querySelector('header');
     var section = document.querySelector('section');
     
-        var requestURL = 'https://jnrpobee.github.io/cit261/json/js/test.json';
+        var requestURL = 'https://mdn.github.io/learning-area/javascript/oojs/json/superheroes.json';
         var request = new XMLHttpRequest();
 request.open('GET', requestURL);
         request.responseType = 'json';
 request.send();
         
         request.onload = function() {
-  var teamFour = request.response;
-  myHeader(teamFour);
-  showTeam(teamFour);
+  var superHeroes = request.response;
+  populateHeader(superHeroes);
+  showHeroes(superHeroes);
 }
         
-        function myHeader(jsonObj) {
+        function populateHeader(jsonObj) {
   var myH1 = document.createElement('h1');
-  myH1.textContent = jsonObj["secretBase"];
   header.appendChild(myH1);
 
   var myPara = document.createElement('p');
-  myPara.textContent = 'This is a presentation for CIT 261: ' + jsonObj['semester'] + ' for year: ' + jsonObj['year'];
+  myPara.textContent = 'Hometown: ' + jsonObj['homeTown'] + ' // Formed: ' + jsonObj['formed'];
   header.appendChild(myPara);
 }
   //       function populateHeader(jsonObj) {
@@ -54,7 +53,7 @@ request.send();
  // header.appendChild(myPara);
 //}
         
-        function showTeam(jsonObj) {
+        function showHeroes(jsonObj) {
   var team = jsonObj['infos'];
       
   for (var i = 0; i < team.length; i++) {
