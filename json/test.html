@@ -70,10 +70,10 @@ request.send();
     myPara2.textContent = ' Topics: ' + team[i].numberOfTopics;
     myPara3.textContent = ' Presenters:';
         
-    var superPowers = team[i].powers;
-    for (var j = 0; j < superPowers.length; j++) {
+    var present = team[i].presenters;
+    for (var j = 0; j < present.length; j++) {
       var listItem = document.createElement('li');
-      listItem.textContent = superPowers[j];
+      listItem.textContent = present[j];
       myList.appendChild(listItem);
     }
 

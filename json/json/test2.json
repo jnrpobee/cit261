@@ -9,7 +9,7 @@
       "weekName" : "Week three",
       "numberOfTopics" : 29,
       "secretIdentity" : "Wednesday",
-      "powers" : [
+      "presenters" : [
         "Solomon Pobee",
         "Nathan Graves",
         "Les Aycock"
@@ -19,7 +19,7 @@
       "weekName" : "Week four",
       "numberOfTopics" : 39,
       "secretIdentity" : "Thursday",
-      "powers" : [
+      "presenters" : [
         "Deon Miller",
         "Michaelle Salas",
         "Theodore"
@@ -29,7 +29,7 @@
       "weekName" : "Week five",
       "numberOfTopics" : 10,
       "secretIdentity" : "Friday",
-      "powers" : [
+      "presenters" : [
         "Solomon Pobee",
         "Michaelle Salas",
         "Nathan Graves"
