@@ -23,7 +23,7 @@
     var header = document.querySelector('header');
     var section = document.querySelector('section');
     
-        var requestURL = 'https://mdn.github.io/learning-area/javascript/oojs/json/superheroes.json';
+        var requestURL = 'https://jnrpobee.github.io/cit261/json/json/test2.json';
         var request = new XMLHttpRequest();
 request.open('GET', requestURL);
         request.responseType = 'json';
@@ -55,7 +55,7 @@ request.send();
 //}
         
         function showTeam(jsonObj) {
-  var team = jsonObj['members'];
+  var team = jsonObj['infos'];
       
   for (var i = 0; i < team.length; i++) {
     var myArticle = document.createElement('article');

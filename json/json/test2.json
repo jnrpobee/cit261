@@ -16,7 +16,7 @@
       ]
     },
     {
-      "name" : "Week four",
+      "weekName" : "Week four",
       "numberOfTopics" : 39,
       "secretIdentity" : "Thursday",
       "powers" : [
@@ -26,7 +26,7 @@
       ]
     },
     {
-      "name" : "Week five",
+      "weekName" : "Week five",
       "numberOfTopics" : 10,
       "secretIdentity" : "Friday",
       "powers" : [
