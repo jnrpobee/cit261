@@ -34,12 +34,13 @@ header p {
 /* section styles */
 
 section article {
-  width: 33%;
+  width: 46%;
   float: left;
 }
 
 section p {
   margin: 10px 0;
+      float: center;
 }
 
 section ul {

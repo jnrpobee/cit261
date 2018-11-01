@@ -7,42 +7,42 @@
   "infos" : [
     {
       "weekName" : "Week three",
-      "numberOfTopics" : 29,
-      "secretIdentity" : "Wednesday",
+      "numberOfTopics" : 3,
+      "meetingDay" : "Wednesday",
       "presenters" : [
-        "Solomon Pobee",
-        "Nathan Graves",
-        "Les Aycock"
+        "Solomon Pobee: Loops, Conditional Statements, Functions, Variables, Parameters, Arrays, Associative Arrays",
+        "Nathan Graves: Object Creation Functions, Inheritance, Properties, Methods, Instantiation",
+        "Les Aycock: Local Storage API, Storing and Retrieving Simple Data, Arrays, Associative Arrays, and Objects."
       ]
     },
     {
       "weekName" : "Week four",
-      "numberOfTopics" : 39,
-      "secretIdentity" : "Thursday",
+      "numberOfTopics" : 3,
+      "meetingDay" : "Thursday",
       "presenters" : [
-        "Deon Miller",
-        "Michaelle Salas",
-        "Theodore"
+        "Deon Miller: DOM Manipulation Using createElement, appendChild",
+        "Michaelle Salas: HTML5 Tags - Video, Audio, and Canvas.",
+        "Theodore: Manipulating CSS Class Properties Using JavaScript."
       ]
     },
     {
       "weekName" : "Week five",
-      "numberOfTopics" : 10,
-      "secretIdentity" : "Friday",
+      "numberOfTopics" : 3,
+      "meetingDay" : "Friday",
       "presenters" : [
-        "Solomon Pobee",
-        "Michaelle Salas",
-        "Nathan Graves"
+        "Solomon Pobee: Manipulating CSS Class Properties Using JavaScript.",
+        "Michaelle Salas: Designing, Defining, and Triggering CSS3 Transforms without Custom Libraries (Thought Library).",
+        "Nathan Graves: Using XMLHTTPRequest to Consume a JSON Web Service"
       ]
     },
       {
       "weekName" : "Week six",
-      "numberOfTopics" : 4,
-      "secretIdentity" : "Monday",
+      "numberOfTopics" : 3,
+      "meetingDay" : "Monday",
       "presenters" : [
-        "Solomon ",
-        "Michaelle ",
-        "Nathan "
+        "Les Aycock: Creating CSS3 Transitions and Animations in CSS and triggering them with JavaScript.",
+        "Theodore: Designing, Defining, and Triggering CSS3 Transitions without Custom Libraries (Thought Library). ",
+        "Elias: Standard JavaScript Events Including those for Mobile Devices ( Ex. onTouchBegin, onLoad, etc.) and Animation and Transition Events."
       ]
     }
   ]
