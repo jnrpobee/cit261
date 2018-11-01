@@ -46,7 +46,12 @@ request.send();
   var myPara = document.createElement('p');
   myPara.textContent = 'This is a presentation for CIT 261: ' + jsonObj['semester'] + ' for year: ' + jsonObj['year'];
   header.appendChild(myPara);
+            
+  var para1 = document.createElement('p');
+            para1.textContent = 'Meeting Link: ' + jsonObj['meetingLink'];
+            header.appendChild(para1);
 }
+        
   //       function populateHeader(jsonObj) {
  // var myH1 = document.createElement('h1');
  // myH1.textContent = jsonObj['squadName'];
