@@ -17,6 +17,9 @@
       <header>
 
       </header>
+      <section>
+      
+      </section>
 
       <section>
 
@@ -26,9 +29,9 @@
 
     <script>
     var header = document.querySelector('header');
+
     var section = document.querySelector('section');
-        document.querySelector('main');
-        document.querySelector('footer');
+   // var article document.querySelector('article');
     
         var requestURL = 'https://jnrpobee.github.io/cit261/xmlhttp/json/web.json';
         var request = new XMLHttpRequest();
@@ -39,8 +42,9 @@ request.send();
         request.onload = function() {
   var teamFour = request.response;
   myHeader(teamFour);
+  //myMain(teamFour);
   showTeam(teamFour);
-  myMain(teamFour);
+  
 }
         
         function myHeader(jsonObj) {
@@ -61,21 +65,19 @@ request.send();
             header.appendChild(para1);
 }
         
-          
         function showTeam(jsonObj) {
-            var myMessage = document.createElement('p');
-            myMessage.textContent = 'json file link ' + jsonObj['webLink'];
-            main.appendChild(myMessage);
-            
   var team = jsonObj['infos'];
       
   for (var i = 0; i < team.length; i++) {
     var myArticle = document.createElement('article');
+      var myMessage = document.createElement('p');
     var myH2 = document.createElement('h2');
     var myPara1 = document.createElement('p.man');
     var myPara2 = document.createElement('p.man');
     var myPara3 = document.createElement('p.man');
     var myList = document.createElement('ul');
+      
+      myMessage.textContent = 'json file link: ' + jsonObj['webLink'];
 
     myH2.textContent = team[i].weekName;
     myPara1.textContent = ' Meeting Day: ' + team[i].meetingDay;
@@ -89,6 +91,7 @@ request.send();
       myList.appendChild(listItem);
     }
 
+    myArticle.appendChild(myMessage);
     myArticle.appendChild(myH2);
     myArticle.appendChild(myPara1);
     myArticle.appendChild(myPara2);
@@ -99,11 +102,7 @@ request.send();
   }
 }
         
-    //    function myMain(jsonObj){
-    //        var myMessage = document.createElement('p');
-   //         myMessage.textContent = 'json file link ' + jsonObj['webLink'];
-   //         main.appendChild(myMessage);
-  //      }
+        
     </script>
   </body>
 </html>
