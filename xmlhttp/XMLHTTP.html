@@ -27,6 +27,8 @@
     <script>
     var header = document.querySelector('header');
     var section = document.querySelector('section');
+        document.querySelector('main');
+        document.querySelector('footer');
     
         var requestURL = 'https://jnrpobee.github.io/cit261/xmlhttp/json/web.json';
         var request = new XMLHttpRequest();
@@ -38,6 +40,7 @@ request.send();
   var teamFour = request.response;
   myHeader(teamFour);
   showTeam(teamFour);
+  myMain(teamFour);
 }
         
         function myHeader(jsonObj) {
@@ -60,6 +63,10 @@ request.send();
         
           
         function showTeam(jsonObj) {
+            var myMessage = document.createElement('p');
+            myMessage.textContent = 'json file link ' + jsonObj['webLink'];
+            main.appendChild(myMessage);
+            
   var team = jsonObj['infos'];
       
   for (var i = 0; i < team.length; i++) {
@@ -91,6 +98,12 @@ request.send();
     section.appendChild(myArticle);
   }
 }
+        
+    //    function myMain(jsonObj){
+    //        var myMessage = document.createElement('p');
+   //         myMessage.textContent = 'json file link ' + jsonObj['webLink'];
+   //         main.appendChild(myMessage);
+  //      }
     </script>
   </body>
 </html>

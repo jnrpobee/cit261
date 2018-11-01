@@ -4,6 +4,7 @@
   "year" : 2018,
   "meetingLink" : "https://byui.zoom.us/j/608276222",
   "lesson" : "Using XMLHTTPRequest to Consume a JSON Web Service",
+    "webLink" : "https://jnrpobee.github.io/cit261/xmlhttp/json/web.json",
   "infos" : [
     {
       "weekName" : "Week three",
