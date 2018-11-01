@@ -42,6 +42,10 @@ request.send();
   var myH1 = document.createElement('h1');
   myH1.textContent = jsonObj['squadName'];
   header.appendChild(myH1);
+            
+            var myH3 = document.createElement('h3');
+            myH3.textContent = jsonObj['lesson'];
+            header.appendChild(myH3);
 
   var myPara = document.createElement('p');
   myPara.textContent = 'This is a presentation for CIT 261: ' + jsonObj['semester'] + ' for year: ' + jsonObj['year'];
