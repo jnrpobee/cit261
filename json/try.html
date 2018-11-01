@@ -2,11 +2,8 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <meta name="description" content="page description placeholder">
-        <meta name="author" content="Solomon Buaku Pobee">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>JSON</title>
+    <title>Json Parse</title>
 
     <link href="https://fonts.googleapis.com/css?family=Faster+One" rel="stylesheet"> 
     <link rel="stylesheet" href="css/main.css">
@@ -26,7 +23,7 @@
     var header = document.querySelector('header');
     var section = document.querySelector('section');
     
-        var requestURL = 'https://jnrpobee.github.io/cit261/json/json/test2.json';
+        var requestURL = 'https://jnrpobee.github.io/cit261/json/js/given.json';
         var request = new XMLHttpRequest();
 request.open('GET', requestURL);
         request.responseType = 'json';
@@ -34,35 +31,21 @@ request.send();
         
         request.onload = function() {
   var teamFour = request.response;
-  myHeader(teamFour);
-  showTeam(teamFour);
+  Headers(teamFour);
+  showHeroes(teamFour);
 }
         
-        function myHeader(jsonObj) {
+        function Headers(jsonObj) {
   var myH1 = document.createElement('h1');
-  myH1.textContent = jsonObj['squadName'];
+  myH1.textContent = jsonObj['SchoolName'];
   header.appendChild(myH1);
 
   var myPara = document.createElement('p');
-  myPara.textContent = 'This is a presentation for CIT 261: ' + jsonObj['semester'] + ' for year: ' + jsonObj['year'];
+  myPara.textContent = 'This is a presentation for CIT 261: ' + jsonObj['Semester'] + ' for year: ' + jsonObj['year'];
   header.appendChild(myPara);
-            
-  var para1 = document.createElement('p');
-            para1.textContent = 'Meeting Link: ' + jsonObj['meetingLink'];
-            header.appendChild(para1);
 }
         
-  //       function populateHeader(jsonObj) {
- // var myH1 = document.createElement('h1');
- // myH1.textContent = jsonObj['squadName'];
- // header.appendChild(myH1);
-             
- // var myPara = document.createElement('p');
- // myPara.textContent = 'Hometown: ' + jsonObj['homeTown'] + ' // Formed: ' + jsonObj['formed'];
- // header.appendChild(myPara);
-//}
-        
-        function showTeam(jsonObj) {
+        function showPresentations(jsonObj) {
   var team = jsonObj['infos'];
       
   for (var i = 0; i < team.length; i++) {
@@ -73,15 +56,22 @@ request.send();
     var myPara3 = document.createElement('p.man');
     var myList = document.createElement('ul');
 
-    myH2.textContent = team[i].weekName;
-    myPara1.textContent = ' Meeting Day: ' + team[i].meetingDay;
-    myPara2.textContent = ' Topics: ' + team[i].numberOfTopics;
-    myPara3.textContent = ' Presenters:';
+    myH2.textContent = team[i].presentationWeek;
+   // myPara2.textContent = ' topic: ';
+    myPara1.textContent = ' meetingDay: ' + team[i].meetingDay;
+    myPara3.textContent = ' Presenters: ';
+      
+   //   var teamTopics = team[i].presentationTopic;
+   //   for (var t = 0; t < teamTopics.length; t++) {
+   //       var listTopic = document.createElement('li');
+   //       listTopic.textContent = teamTopics[m];
+   //       myList.appendChild(listTopic);
+   //   }
         
-    var present = team[i].presenters;
-    for (var j = 0; j < present.length; j++) {
+    var teamPresenters = team[i].presentatinsBy;
+    for (var j = 0; j < teamPresenters.length; j++) {
       var listItem = document.createElement('li');
-      listItem.textContent = present[j];
+      listItem.textContent = teamPresenters[j];
       myList.appendChild(listItem);
     }
 
