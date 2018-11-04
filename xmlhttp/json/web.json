@@ -3,7 +3,7 @@
   "semester" : "fall semester",
   "year" : 2018,
   "meetingLink" : "https://byui.zoom.us/j/608276222",
-  "lesson" : "Using XMLHTTPRequest to Consume a JSON Web Service",
+  "lesson" : "Using XMLHTTPRequest to Consume a JSON Web Service and DOM Manipulation Using createElement, appendChild",
     "webLink" : "https://jnrpobee.github.io/cit261/xmlhttp/json/web.json",
   "infos" : [
     {
