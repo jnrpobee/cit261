@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
         <meta name="description" content="page description placeholder">
-        <meta name="author" content="Solomon Buaku Pobee">
+        <meta name="author" content="Solomon B. Pobee">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Standard JavaScript Events Including those for Mobile Devices ( Ex. onTouchBegin, onLoad, etc.) and Animation and Transition Events</title>
 
@@ -13,14 +13,17 @@
 
 </head>
     
-<body>
+<body onload="loadMe()">
     <header>
         <h1>Standard JavaScript Events Including those for Mobile Devices ( Ex. onTouchBegin, onLoad, etc.) and Animation and Transition Events</h1>
     </header>
-    <main>
+    <main >
+        <canvas id="myCanvast" width="350" height="100"></canvas>
+                
         <article>
-            <h2>Touch Screen</h2>
-            <p>Let's determine if your device is a touch screen. Bare in mind that if your device is a touch screen it will be determined <b>onload</b> thus when the page loads.</p><p id="loadMe"></p>
+            <h2 style="text-align: center">onLoad</h2>
+            <p>Let's determine if your device is a touch screen. Bare in mind that if your device is a touch screen it will be determined onload thus when the page loads.</p>
+            <p id="screenTouch" ></p>
         </article>
         <article>
 			<h2>What's check the date</h2>
@@ -60,16 +63,21 @@
         
         <br>
         <p ontouchend="tEnds()">hope you enjoyed using your touch screen device</p><p id="touches">it is still a touch</p>
-        </main></main>
+        <div>
+        <p>
+            <canvas id="myCanvase" width="175" height="100" class="anvas">Sorry, your browser does not support HTML canvas</canvas>
+            </p></div>
+        </main>
     <footer>
         <p id="edu">&star; <a href="http://www.byui.edu/online">BYU-Idaho Online Learning</a>&star;</p>
         <p>&copy;2018 Alright Reserved | Solomon B. Pobee    </p>
                 <marquee>Visit our site to learn more about BYU-I online learning!!</marquee>
             </footer>
-    
-    <script src="js/event.js"></script>
-    
+        
     </body>
     
-    
+        <script src="js/canvas.js"></script>
+        <script src="js/event.js"></script>
+
+
 </html>    

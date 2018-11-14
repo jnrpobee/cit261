@@ -1,7 +1,8 @@
+
 //onLoad
-function loads() {
+function loadMe() {
     var checkScreen = 'ontouchstart' in window;
-document.getElementById("loadMe").innerHTML = (checkScreen ? '<b style = "color:green;">' + 'Your device supports touch screen however subsecu  onTouch examples will respond as they should. <br> thank you' : '<b style = "color:red;">'+'WE ARE SORRY, your device does not support touch screen. <br> NB: subsecuent examples will not function'+ '<b>'); 
+document.getElementById("screenTouch").innerHTML = (checkScreen ? '<b style = "color:green;">' + 'Your device supports touch screen however subsequent onTouch examples will respond as they should. <br> thank you' : '<b style = "color:red;">'+'WE ARE SORRY, your device does not support touch screen.' + '<br> NB: subsequent examples will not function' + '<b>'); 
 }
 
 
@@ -20,6 +21,7 @@ function sTouch() {
 function tEnd() {
     document.getElementById("touches").innerHTML = "thank you for using your touch screen device";
       }
+
 
 
 //for loops, arrays and associative arrays

@@ -31,8 +31,17 @@ main {
     background-color: lightyellow;
 }
 
+events {background: red;}
+
 footer {
     background-color: #ddd;
     padding: .6rem 2%;
     text-align: center;
+}
+
+/* canvas */
+
+.anvas{
+     width: 900px, auto;
+    height: 150px; 
 }

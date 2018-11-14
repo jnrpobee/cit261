@@ -1,16 +1,9 @@
-/*
-var c = document.getElementById("myCanvas");
-var ctx = c.getContext("2d");
-ctx.beginPath();
-ctx.arc(95,50,40,0,2*Math.PI);
-ctx.stroke();
-  */   
-
+//canvas
 var c = document.getElementById("myCanvast");
 var ctx = c.getContext("2d");
-ctx.font = "18px Arial bold";
-ctx.strokeText("this is Conference",10,50);
-/*
+ctx.font = "28px Arial bold";
+ctx.strokeText("Touch Screen Devices",100,50);
+
 var c = document.getElementById("myCanvase");
 var ctx = c.getContext("2d");
 
@@ -22,4 +15,3 @@ grd.addColorStop(1,"lightblue");
 // Fill with gradient
 ctx.fillStyle = grd;
 ctx.fillRect(10,10,150,70);
-*/
