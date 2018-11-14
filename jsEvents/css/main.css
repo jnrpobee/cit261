@@ -31,6 +31,26 @@ main {
     background-color: lightyellow;
 }
 
+  .forecast {
+        display: flex;
+        flex-flow: column;
+        flex-wrap: wrap;
+        visibility: visible;
+        text-align: center;
+         font: 15px sans-serif;
+        border: 3px double orange;
+        width: auto;
+        margin: auto;
+    }
+    .forecast td, .forecast th {
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+         border: 2px solid #ddd;
+        padding: 4px;
+
+    }
+
 events {background: red;}
 
 footer {
