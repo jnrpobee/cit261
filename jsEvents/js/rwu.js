@@ -1,6 +1,6 @@
 
 //Weather API
-var requestURL = '//api.wunderground.com/api/603ff4987cc67f03/conditions/forecast/q/ID/Rexburg.json';
+var requestURL = 'https://api.wunderground.com/api/603ff4987cc67f03/conditions/forecast/q/ID/Rexburg.json';
 var request = new XMLHttpRequest();
 request.open('GET', requestURL, true);
 request.send();
