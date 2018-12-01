@@ -15,8 +15,15 @@
     
 <body onload="loadMe()">
     <header>
+         <p>Animate Logo</p>
+            <div id="logos">
+			<a id="box">
+				<img src="img/byu-i.png" id="first">
+				<img src="img/Canvas-Logo.png" id="second">
+			</a>
+		</div>
         <h1 style="color:orange">cit261 Mobile Application Development</h1>
-        <h3s>JavaScript Events, JSON Parse, Local Storage API</h3>
+        <h3>JavaScript Events, JSON Parse, Local Storage API</h3>
     </header>
     <main >
         <canvas id="myCanvast" width="350" height="100"></canvas>
@@ -27,8 +34,8 @@
             <p id="screenTouch" ></p>
         </article>
         <article>
-			<h2>What's check the date</h2>
-			<button onclick="myTime()">check date</button>
+			<h2 class="but, photos" onclick="changePic()">What's check the date</h2>
+			<button id="but" onclick="myTime()">check date</button>
 			<p id="dateIt"></p>
 			</article>
     
@@ -48,21 +55,8 @@
                 
             Credits completed
                 <input type="text" id="credits" size="3" placeholder="credit"><br></p>
-                <button type="button" onclick="schoolYears()">check year</button>
+                <button type="button" onclick="schoolYears()" class="shake">check year</button>
             <div id="Output"><b>Result</b></div> 
-    <!--    <p id="font">
-            You now have the opportunity to choose your reward ramdomly. To begin you are to enter an integer between 0 - 8 from the result you will receive enter any number between the result gotten and 20. <br><br></p>
-            <p>Enter an Integer between 1 - 8 <input type="input" id="integ" size="4">
-                <button type="button" onclick="myInteger()"> Sum Up </button></p>
-            <p></p><div id="outpu" style="color: red"></div>
-        
-         <p>Provide a number for your reward (from 0 to 20): <br>
-                <input type="text" id="marray" size="4"></p>
-
-            <button type="button" onclick="arraYem()">submit</button>
-            <div id="Otput" style="color: red">result</div></article>
-        -->
-        
         <br>
         <p ontouchend="tEnds()">hope you enjoyed using your touch screen device</p><p id="touches">it is still a touch</p>
         <div>

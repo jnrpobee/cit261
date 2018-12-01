@@ -82,3 +82,19 @@ var show = 0;
 				 document.getElementById("outpu").innerHTML = tag;
 			 }
 		 myInteger();
+
+
+//animation
+
+function changePic() {
+    for (var i=0; i<12; i++){
+        var x = document.getElementsByClassName('text');
+        x[i].style.transitionProperty = 'color';
+        x[i].style.transitionDuration = '5s';
+        x[i].style.color = 'white';
+        var y = document.getElementsByClassName('photos');
+        y[i].style.transitionProperty = 'opacity';
+        y[i].style.transitionDuration = '5s';
+        y[i].style.opacity = '1.0';
+    }
+}
