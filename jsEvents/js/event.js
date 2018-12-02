@@ -83,19 +83,3 @@ var show = 0;
 			 }
 		 myInteger();
 
-
-//animation
-
-/*
-function colorChange() {
-    for (var i=0; i < 12; i++){
-        var change = document.getElementsByClassName('text');
-        change[i].style.transitionProperty = 'color';
-        change[i].style.transitionDuration = '5s';
-        change[i].style.color = 'gold';
-        var can = document.getElementsByClassName('photos');
-        can[i].style.transitionProperty = 'opacity';
-        can[i].style.transitionDuration = '5s';
-        can[i].style.opacity = '1.0';
-    }
-}
