@@ -2,7 +2,7 @@
 var c = document.getElementById("myCanvast");
 var ctx = c.getContext("2d");
 ctx.font = "28px Arial bold";
-ctx.strokeText("Touch Screen Devices",90,50);
+ctx.strokeText("Touch Screen Devices",80,50);
 
 var c = document.getElementById("myCanvase");
 var ctx = c.getContext("2d");
