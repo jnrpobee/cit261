@@ -86,15 +86,16 @@ var show = 0;
 
 //animation
 
-function changePic() {
-    for (var i=0; i<12; i++){
-        var x = document.getElementsByClassName('text');
-        x[i].style.transitionProperty = 'color';
-        x[i].style.transitionDuration = '5s';
-        x[i].style.color = 'white';
-        var y = document.getElementsByClassName('photos');
-        y[i].style.transitionProperty = 'opacity';
-        y[i].style.transitionDuration = '5s';
-        y[i].style.opacity = '1.0';
+/*
+function colorChange() {
+    for (var i=0; i < 12; i++){
+        var change = document.getElementsByClassName('text');
+        change[i].style.transitionProperty = 'color';
+        change[i].style.transitionDuration = '5s';
+        change[i].style.color = 'gold';
+        var can = document.getElementsByClassName('photos');
+        can[i].style.transitionProperty = 'opacity';
+        can[i].style.transitionDuration = '5s';
+        can[i].style.opacity = '1.0';
     }
 }

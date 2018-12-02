@@ -178,22 +178,27 @@ shake a button
 hover buttons
 */
 
+h2 {
+    width: 50%;
 }
 
-.but:hover {
+h2:hover{
     animation-name: buttonAnimation;
     animation-duration: 5s;
     animation-fill-mode:backwards;
 }
 
-@keyframes pic1Animation {
+@keyframes buttonAnimation {
     0% {
-        border: 15px solid transparent;
+        border: 15px dotted transparent;
     }
     50% {
-        border: 20px solid white;
+        border: 17px groove #ffd700;
     }
-    100% {
-        border: 20px solid red;
+    70% {
+        border: 19px inset #90ee90;
+    }
+    90% {
+        border: 21px ridge #ffa500;
     }
 }
