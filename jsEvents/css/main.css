@@ -202,3 +202,66 @@ h2:hover{
         border: 21px ridge #ffa500;
     }
 }
+
+
+/*
+Transforms
+*/
+#Output {
+    margin: 20px;
+    margin-right: 30px;
+}
+
+#Output:hover {
+    transform: scale(1.1);
+    margin-right: 25px;
+    color: red;
+    list-style-type: upper-roman;
+}
+
+#tiME:hover {
+    transform: 
+}
+
+#clocK {
+    width: 15em;
+}
+
+#clocK:hover {
+    transform: rotateY(180deg);
+}
+
+.element {
+    display: inline-block;
+     background-color: #0074d9;
+  height: auto;
+  width: auto;
+  color: white;
+  text-align: center;
+  opacity: .7;
+  border: 6px solid rgba(0,0,0,.4); 
+  margin-bottom: 20px;
+}
+
+.try:hover { 
+  -webkit-transform: rotateX(40deg);
+          transform: rotateX(40deg);
+  -webkit-animation: try 2s infinite;
+          animation: try 2s infinite;
+  -webkit-animation-direction: alternate;
+          animation-direction: alternate;
+}
+
+.sKew {
+      transform: skew(20deg);
+    animation: shake 2s infinite;
+  animation-direction: alternate;
+}
+@keyframes shake {
+  0% {
+    transform: skewY(20deg);
+  }
+  100% {
+    transform: skewY(-20deg);
+  }
+}
