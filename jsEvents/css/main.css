@@ -48,7 +48,12 @@ main {
         text-align: center;
          border: 1px solid #ddd;
         padding: 2px;
-
+        
+        background: white;
+       -webkit-transition: background-color 3s ease-out;
+       -moz-transition: background-color 3s ease-out;
+       -o-transition: background-color 3s ease-out;
+       transition: background-color 5s ease-out;
     }
 
 events {background: red;}
@@ -264,4 +269,53 @@ Transforms
   100% {
     transform: skewY(-20deg);
   }
+}
+
+/*
+transition
+*/
+
+#easeOut:hover{
+    width: 96%;
+    transition: ease;
+    transition: cubic-bezier(0.6, -0.28, 0.74, 0.05);
+    -webkit-transition: width 1s; /* Safari */
+    -webkit-transition-delay: 1s; /* Safari */
+    transition-delay: 1s;
+}
+
+#easeOut {
+    overflow: hidden;
+    background-color: gold;
+    border: 1px solid black;
+    padding: 15px;
+    margin: 15px;
+    list-style-type: circle;
+    width: 80px;
+    height:40px;
+    color: dimgrey;
+}
+
+#screenTouch:hover{
+    width: 200px;
+  height: 200px;
+    margin: 16px;
+    padding: 15px;
+    text-align: center;
+    border: 2px double gold;
+}
+
+#screenTouch {
+   overflow: hidden;
+   width: 95px;
+  height:85px;
+  background:lightgrey ;
+  -webkit-transition: width 2s, height 4s; /* For Safari 3.1 to 6.0 */
+  transition: width 1s, height 4s;
+}
+
+table thead th:hover,tbody td:hover{
+      background-color: green;
+  cursor: pointer;
+    color: white;
 }
