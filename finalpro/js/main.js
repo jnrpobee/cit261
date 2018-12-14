@@ -22,4 +22,23 @@ function content() {
     hder.style.marginBottom = "-15px";
     hder.style.marginTop = "-20px";
     hder.style.color ="gold";
+    
+    var headthree = document.querySelector("h3");
+    headthree.style.backgroundColor = "#ddd";
+    headthree.style.color = "black";
+    
+    var inforn = document.getElementById("inforn");
+    inforn.style.width = "70%";
+    inforn.style.border = "1px solid grey";
+    inforn.style.margin = "auto";
+    inforn.style.backgroundColor = "azure";
+    
+    var form = document.querySelector("form");
+    form.style.textAlign = "center";
+    form.style.fontSize = "1.1em";
+    form.style.backgroundColor = "azure";
+    form.style.width = "70%";
+    form.style.margin = "auto";
+    
+    
 }
