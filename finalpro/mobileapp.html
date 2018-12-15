@@ -103,17 +103,19 @@
                 
             
             </article>
+        
+        <section onload="lStorage()">
             
             <!-- Registration Form -->
-            <form action="thank.html" method="get" enctype="multipart/form-data" name="Contiform" >
+            <form>
       <fieldset>
-      <label> Full Name: <input name="fullname" type="text" value="" placeholder="Full Name" pattern="[a-zA-Z -._]{3,99}" required></label><br><br>
+      <label> Full Name: <input id="fullName" name="fullname" type="text" size="17px" value="" placeholder="Full Name" pattern="[a-zA-Z -._]{3,99}" required></label><br><br>
           
-      <label> Email: <input name="Email" type="email" value="" placeholder="demo@byui.edu" required></label><br><br>
+      <label> Email: <input id="emaiL" name="Email" type="email" size="20px" value="" placeholder="demo@byui.edu" required></label><br><br>
           
-      <label> Phone Number: <input name="phonenumber" type="tel" size="14px" value="" required></label><br><br>
+      <label> Phone Number: <input id="fNumber" name="phonenumber" type="tel" size="17px" value="" required></label><br><br>
           
-          <label> Date of Birth: <input name="dateofbirth" type="date"></label><br><br>
+          <label> Date of Birth: <input id="dateBirth" name="dateofbirth" type="date"></label><br><br>
           
                  
       </fieldset>
@@ -121,23 +123,24 @@
                    <fieldset>
 
           <label>Additional Information:<br>
-		<textarea name="message" rows="15" cols="30"></textarea></label><br><br>
+		<textarea id="messAge" name="message" rows="15" cols="30"></textarea></label><br><br>
       
-            <input type="submit" value="Submit">
-        	<input name="redirect" type="hidden" value="thank.html">
+            <button id="lastM" id='button' onclick='uInput()'>Enter</button>
 
 
       </fieldset>
 
 
-      <input type="submit" value="Submit">
-	
-	<input name="redirect" type="hidden" value="thank.html">
-      </form>
       
+                <button id='button' onclick='uInput()'>Enter</button>
+	
+      </form>
+            <div id="theData"></div>
+      </section>
         
     </body>
     
     <script src="js/main.js"></script>
     <script src="js/canvas.js"></script>
+    <script src="js/storage.js"></script>
 </html>
