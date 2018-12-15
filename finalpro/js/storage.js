@@ -12,7 +12,7 @@ function uInput() {
     var member = {name: name, email: email, phone: phone, dateOb: dateOb, message: message};
     
     
-    var stringMessage = ["", ", you have successfully registed for the competition using ", " with this valid phone number ", " this Date of Birth ", " is recorded for future use as well as these information", " Thank you"];
+    var stringMessage = ["Your name ", ", has been successfully registed for the competition. Further information will be sent to ", ". You will be contacted on this valid phone number ", " for confirmation. This Date of Birth ", " is recorded for future use and it is being held confidentially as well as these information provided ", " Thank you "];
     
     
     var object = new MemberObject(member, stringMessage);
@@ -20,7 +20,7 @@ function uInput() {
     var jsonObject = JSON.stringify(object);
     
     saveObject(jsonObject);
-              loadlStorage();
+              lStorage();
 }
 
 
@@ -36,16 +36,16 @@ function uInput() {
 
 function saveObject(jsonObject){
     if (typeof(Storage) !== "undefined") {
-        lStorage.memberObject = jsonObject;
+        localStorage.memberObject = jsonObject;
     } else {
         window.alert("device does not support this file")
     }
 }
 
 
-function loadlStorage() {
-    if(lStorage.memberObject){
-        var object = JSON.parse(lStorage.memberObject);
+function lStorage() {
+    if(localStorage.memberObject){
+        var object = JSON.parse(localStorage.memberObject);
     
     var member = object.member;
     var theCheck = object.stringMessage;
@@ -57,14 +57,14 @@ function loadlStorage() {
     
     // Adds
     var title = document.createElement("h2");
-    var next = document.createTextNode("Simple check: ");
+    var next = document.createTextNode("Dear Participant: ");
     title.appendChild(next);
     element.appendChild(title);
     
     //adding of the checks
     var paragraph = document.createElement("p");
         paragraph.setAttribute("class", "theCheck");
-        var text = theCheck[0] + member.name + theCheck[1] + member.email + theCheck[2] + theCheck[3] + member.phone + theCheck[4] + member.dateOb + theCheck[5] + member.message + theCheck[6];
+        var text = theCheck[0] + member.name + theCheck[1] + member.email + theCheck[2] + member.phone + theCheck[3] + member.dateOb + theCheck[4] + member.message + theCheck[5];
         
         next = document.createTextNode(text);
         paragraph.appendChild(next);
@@ -80,7 +80,7 @@ function loadlStorage() {
         element.appendChild(button);
         
         var gain = document.createElement("p");
-        next = document.createTextNode("**If you refresh your page, your data will still be stored");
+        next = document.createTextNode("**Data successfully Stored**");
         gain.appendChild(next);
         
         element.appendChild(document.createElement('br'));
@@ -96,7 +96,7 @@ function loadlStorage() {
 }
 //home
 function backHome() {
-    lStorage.removeItem("memberObject");
+    localStorage.removeItem("memberObject");
     location.reload();
 }
 
