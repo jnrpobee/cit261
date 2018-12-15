@@ -36,7 +36,7 @@ function uInput() {
 
 function saveObject(jsonObject){
     if (typeof(Storage) !== "undefined") {
-        localStorage.memberObject = jsonObject;
+        lStorage.memberObject = jsonObject;
     } else {
         window.alert("device does not support this file")
     }
@@ -44,7 +44,8 @@ function saveObject(jsonObject){
 
 
 function loadlStorage() {
-    if(lStorage.memberObject);
+    if(lStorage.memberObject){
+        var object = JSON.parse(lStorage.memberObject);
     
     var member = object.member;
     var theCheck = object.stringMessage;
@@ -73,7 +74,7 @@ function loadlStorage() {
         button.setAttribute('type', 'button');
         button.setAttribute('onclick', 'backHome()');
         button.setAttribute('class', 'home');
-        node = document.createTextNode("Home");
+        next = document.createTextNode("Home");
         button.appendChild(next);
         
         element.appendChild(button);
