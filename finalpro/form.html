@@ -8,7 +8,7 @@
         <link rel="stylesheet" href="main.css">
     </head>
     
-    <body onload="content()">
+    <body onload="lStorage()">
         
         <header>
             <div id="logos">
@@ -19,12 +19,11 @@
         </div>
             <h1>Bees Productions</h1>
             Your Home of quality Entertainment
-        </header>
+        </header> 
       
-        <button style="width: 5em; height: 3em; font-size: 1em" href="mobileapp.html" id="lastM">Home</button>
+        <a href="mobileapp.html"><button style="width: 5em; height: 2.5em; font-size: .8em"  id="lastM">Home</button></a>
         
         
-        <section onload="lStorage()">
             
             <!-- Registration Form -->
             <form>
@@ -37,17 +36,11 @@
           
           <label> Date of Birth: <input id="dateBirth" name="dateofbirth" type="date"></label><br><br>
           
-                 
-      </fieldset>
-   
-                   <fieldset>
 
           <label>Additional Information:<br>
 		<textarea id="messAge" name="message" rows="15" cols="30"></textarea></label><br><br>
       
-            <button id="lastM" id='button' onclick='uInput()'>Enter</button>
-
-
+    
       </fieldset>
 
 
@@ -56,7 +49,6 @@
 	
       </form>
             <div id="theData"></div>
-      </section>
         
     </body>
     
