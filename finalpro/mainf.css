@@ -30,6 +30,14 @@ h1 {
     color: gold;
 }
 
+button {
+    width: 5em;
+    height: 2.5em;
+    font-size: .8em;
+    background-color: greenyellow;
+    text-decoration-style: solid;
+}
+
 form{
     width: 70%;
     text-align: center;
@@ -123,13 +131,7 @@ input {
        transition: background-color 5s ease-out;
 }
 
-button {
-    width: 5em;
-    height: 2.5em;
-    font-size: .8em;
-    background-color: greenyellow;
-    text-decoration-style: solid;
-}
+
 
 /*Transforms
 */
@@ -190,11 +192,26 @@ button {
               transform: translate(0);
     }
   }
+.sKew {
+      transform: skew(20deg);
+    animation: shake 2s infinite;
+  animation-direction: alternate;
+}
+@keyframes shake {
+  0% {
+    transform: skewY(20deg);
+  }
+  100% {
+    transform: skewY(-20deg);
+  }
+}
 
 
 
+/*
+            Animation
 
-/* logo 3d css */
+logo 3d css */
 #logos {
     position: relative;  top: 0px;  left: 0px;  -webkit-perspective: 100px;
      perspective: 900px; 
