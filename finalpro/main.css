@@ -41,6 +41,12 @@ span img {
     padding: 15px;
 }
 
+footer {
+    background-color: #609d9f;
+    padding: .6rem 2%;
+    text-align: center;
+}
+
 
 /* transition
 */
